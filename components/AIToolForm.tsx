@@ -56,7 +56,7 @@ export default function AIToolForm({
           value={input}
           onChange={(e) => setInput(e.target.value)}
           placeholder={placeholder}
-          className="w-full min-h-40 rounded-xl border border-slate-300 p-4 focus:outline-none focus:ring-2 focus:ring-slate-900"
+          className="w-full min-h-40 rounded-xl border border-slate-300 p-4 focus:outline-none focus:ring-2 focus:ring-slate-900 text-black"
         />
 
         <button
